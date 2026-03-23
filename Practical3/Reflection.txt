@@ -1,0 +1,4 @@
+From the Week 3 IBI courses,
+I learnt the basic principle of Git and GitHub.
+And I got to know the advantages of version control.
+These will help to lay a solid foundation of my future IBI study.
