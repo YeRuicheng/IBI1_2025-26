@@ -35,7 +35,7 @@ for index, v in enumerate(vaccine_rate):
         I.append(I_new)
         R.append(R_new)
 
-    plt.plot(I, color = cm.viridis(30), label=f'{int(v*100)}%')
+    plt.plot(I, color = cm.viridis(index / len(vaccine_rate)), label=f'{int(v*100)}%')
 
 plt.title('SIR Model with Different Vaccination Rates')
 plt.xlabel('Time')
