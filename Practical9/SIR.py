@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib . pyplot as plt
+import matplotlib.pyplot as plt
 
 #beta: the Pr that S becomes I per contact with an infected person
 #gammma: the Pr that I becomes R per time point
