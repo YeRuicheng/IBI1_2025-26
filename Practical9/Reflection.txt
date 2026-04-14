@@ -1,0 +1,6 @@
+This practical about stochastic SIR models is very interesting and practical. 
+The basic SIR model is easy to implement, but understanding the probability calculation of infection takes some time. 
+The vaccination part helps me learn the concept of herd immunity intuitively. 
+The spatial SIR model is more challenging, especially dealing with 8-neighbor infection and boundary problems. 
+I learned how to convert real epidemic problems into probabilistic models and use Python for simulation and visualization. 
+The most important thing is that stochastic models can show different results each time, which is closer to the real world.
