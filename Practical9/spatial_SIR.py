@@ -45,7 +45,8 @@ for step in range(time_steps):
             population[x, y] = 2
     
     if (step + 1) % 20 == 0:
-        plt.figure(figsize=(6,4), dpi=150)
+        plt.clf()
         plt.imshow(population, cmap='viridis', interpolation='nearest')
         plt.title(f'Time {step+1}')
-        plt.show()
+        plt.pause(0.2)
+plt.show()
