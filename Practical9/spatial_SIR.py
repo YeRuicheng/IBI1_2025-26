@@ -39,10 +39,6 @@ for step in range(time_steps):
                             # only infect neighbours that are not already infected!
                             if population[xNeighbour,yNeighbour]==0:
                                 population[xNeighbour,yNeighbour]=np.random.choice(range(2),1,p=[1-beta,beta])[0]
-
-    recover = np.random.choice(range(2), 1, p=[1-gamma, gamma])[0]
-    if recover == 1:
-            population[x, y] = 2
     
     if (step + 1) % 20 == 0:
         plt.clf()
