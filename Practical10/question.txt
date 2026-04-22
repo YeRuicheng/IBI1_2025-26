@@ -1,0 +1,11 @@
+Extra Questions: 
+1. How has the relationship between the DALYs in China and the UK changed over time? 
+2. Are they becoming more similar or less similar?
+
+Line number in dalys.py: 57 ~ 92
+
+Results:
+The DALYs difference between China and the UK was 13997.38 in 1990, and decreased to 1313.90 in 2019.
+
+Discussion:
+The gap is much smaller in 2019 compared with 1990, so China and the UK DALYs are becoming more similar.
