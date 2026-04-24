@@ -45,7 +45,7 @@ country_max = dalys_data[dalys_data['Entity'] == max_country]
 
 # Plot the DALYs values over time for the country with the maximum DALYs value
 plt.figure(figsize=(10, 5))
-plt.plot(country_max['Year'], country_max['DALYs'], 'b+', label = max_country)
+plt.plot(country_max['Year'], country_max['DALYs'], marker = 'o', label = max_country)
 plt.xlabel('Year')
 plt.ylabel('DALYs')
 plt.title('DALYs Over Time for ' + max_country)
