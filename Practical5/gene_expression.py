@@ -11,15 +11,15 @@ gene_expression = {
     'ESR1': 10.7
 }
 
-# add gene MYC to the dictionary
-gene_expression['MYC'] = 11.6
-
-# print the gene expression dictionary
-print("Gene expression dictionary:")
+# Print the original dictionary with only 5 genes
+print("\n=== Original Gene Expression Dictionary (5 genes) ===")
 for gene, expr in gene_expression.items():
     print(f"{gene}: {expr}")
 
-# make a barf chart with labels and title
+# add gene MYC to the dictionary
+gene_expression['MYC'] = 11.6
+
+# make a bar chart with labels and title
 genes = list(gene_expression.keys())
 expressions = list(gene_expression.values())
 
