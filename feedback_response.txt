@@ -1,0 +1,17 @@
+I'm writing to share my responses to the formative feedback. I'd like to thank the feedback from the faculty, which pointed out my specific drawbacks and helped me to make changes for the later IBI1 learning.
+
+For Week 3, I almost got full marks, with one score lost due to my commit messages. The feedback said my commit messages could be more informative. 
+So after that, my commit messages contained more information but concisely to help others easily know what changes I had made.
+
+For Week 4, I did bad work, but the feedback was very helpful.
+I mistakenly only printed the end value of infected individuals, instead of the every-day numbers as required. So, I modified my codes to print the every-day numbers.
+And I made a counting mistake for mystery_code. I assumed it generated 10 numbers, but actually it was 11 numbers (from 0 to 10).
+Also, my pseudocode usage was not that helpful, because I thought it useless. But when I review my codes, I couldn't get their meanings quickly without pseudocode. So ,I added some pseudocodes for Practical 4.
+
+For Week 5, I just lost one score with a careless mistake.
+The portfolio asked me to print the dictionary BEFORE the new gene was added (still 5 genes), but I printed one with the new gene added (totally 6 genes). So, I made my "print" command before the new gene was added to the dictionary.
+
+Overall, the formative feedback helped me a lot with my later IBI1 learning. 
+It taught me to check over the requirements carefully and follow them to reduce minor mistakes.
+It also made me know about the importance of pseudocode and commit messages, which helped both myself and others clearly know what the codes were doing and what changes I made.
+So, I made some changes based on the feedback to do my later practicals better. 
