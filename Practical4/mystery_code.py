@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:Count the total of 10 random integers between 1 and 10, and print the total.
+# Answer: Counts the total of 11 (0-10) random integers between 1 and 10, and prints the total.
 
 # Import libraries
 # randint allows drawing a random number,
@@ -18,4 +18,3 @@ while progress<=10:
 	total_rand+=n
 
 print(total_rand)
-
