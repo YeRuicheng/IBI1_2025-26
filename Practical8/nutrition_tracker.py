@@ -1,7 +1,7 @@
 class FoodItem:
     """
     Class to represent a food item with nutritional information
-    You can create instances of this class for different foods, and use them to calculate daily nutrition intake
+    You can create instances of this class for DIFFERENT foods, and use them to calculate daily nutrition intake
     """
     def __init__(self, name, calories, protein, carbs, fat):
         self.name = name
