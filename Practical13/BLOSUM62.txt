@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <title>/c/data/BLOSUM62</title>
+    <base href="//www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/">
+    <meta name="description" content="NCBI C Toolkit Cross Reference">
+    <meta http-equiv="cache-control" content="max-age=43200"> 
+    <link rel="stylesheet" href="//www.ncbi.nlm.nih.gov/corehtml/ncbi.css">
+    <link rel="stylesheet" type="text/css" href="lxr.css">
+</head>
+<body>
+<h2 class="warning" style="padding:10pt">WARNING: C Toolkit is deprecated, please use C++ Toolkit instead</h2>
+<header>
+    <div class="nav-menu">
+        <a href="/">NCBI Home</a><br>
+        <a href="/IEB/">IEB Home</a><br>
+        <a href="//www.ncbi.nlm.nih.gov/IEB/ToolBox/SDKDOCS/INDEX.HTML">C Toolkit docs</a><br>	
+        <a href="/IEB/ToolBox/CPP_DOC/lxr/source">C++ Toolkit source browser</a><br>
+    </div>
+    <div class="nav-title">
+        <h1 class="main">NCBI C Toolkit Cross Reference</h1>
+        <h3 class="banner"><span class="banner"><a class="banner" href="/IEB/ToolBox/C_DOC/lxr/source/">c</a>/&#x200B;<a class="banner" href="/IEB/ToolBox/C_DOC/lxr/source/data/">data</a>/&#x200B;<a class="banner" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62">BLOSUM62</a></span></h3>
+    </div>
+    <div class="nav-mode">
+        <div><span class='modes-sel'>Source navigation</span><br><a class='modes' href="/IEB/ToolBox/C_DOC/lxr/diff/data/BLOSUM62">Diff markup</a><br><a class='modes' href="/IEB/ToolBox/C_DOC/lxr/ident">Identifier search</a><br><a class="modes" href="/IEB/ToolBox/C_DOC/lxr/search">General search</a><br></div>
+    </div>
+</header>
+<hr>
+<main>
+<p class="indexstate warning">
+<i class=error>Warning, </i>/data/BLOSUM62<i class=error> is written in an unsupported language. File is not indexed.</i>
+</p>
+<div class="filecontent">
+<pre class="filecontent-src">
+# Entries for the BLOSUM62 matrix at a scale of ln(2)/2.0.
+   A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  J  Z  X  *
+A  4 -1 -2 -2  0 -1 -1  0 -2 -1 -1 -1 -1 -2 -1  1  0 -3 -2  0 -2 -1 -1 -1 -4
+R -1  5  0 -2 -3  1  0 -2  0 -3 -2  2 -1 -3 -2 -1 -1 -3 -2 -3 -1 -2  0 -1 -4
+N -2  0  6  1 -3  0  0  0  1 -3 -3  0 -2 -3 -2  1  0 -4 -2 -3  4 -3  0 -1 -4
+D -2 -2  1  6 -3  0  2 -1 -1 -3 -4 -1 -3 -3 -1  0 -1 -4 -3 -3  4 -3  1 -1 -4
+C  0 -3 -3 -3  9 -3 -4 -3 -3 -1 -1 -3 -1 -2 -3 -1 -1 -2 -2 -1 -3 -1 -3 -1 -4
+Q -1  1  0  0 -3  5  2 -2  0 -3 -2  1  0 -3 -1  0 -1 -2 -1 -2  0 -2  4 -1 -4
+E -1  0  0  2 -4  2  5 -2  0 -3 -3  1 -2 -3 -1  0 -1 -3 -2 -2  1 -3  4 -1 -4
+G  0 -2  0 -1 -3 -2 -2  6 -2 -4 -4 -2 -3 -3 -2  0 -2 -2 -3 -3 -1 -4 -2 -1 -4
+H -2  0  1 -1 -3  0  0 -2  8 -3 -3 -1 -2 -1 -2 -1 -2 -2  2 -3  0 -3  0 -1 -4
+I -1 -3 -3 -3 -1 -3 -3 -4 -3  4  2 -3  1  0 -3 -2 -1 -3 -1  3 -3  3 -3 -1 -4
+L -1 -2 -3 -4 -1 -2 -3 -4 -3  2  4 -2  2  0 -3 -2 -1 -2 -1  1 -4  3 -3 -1 -4
+K -1  2  0 -1 -3  1  1 -2 -1 -3 -2  5 -1 -3 -1  0 -1 -3 -2 -2  0 -3  1 -1 -4
+M -1 -1 -2 -3 -1  0 -2 -3 -2  1  2 -1  5  0 -2 -1 -1 -1 -1  1 -3  2 -1 -1 -4
+F -2 -3 -3 -3 -2 -3 -3 -3 -1  0  0 -3  0  6 -4 -2 -2  1  3 -1 -3  0 -3 -1 -4
+P -1 -2 -2 -1 -3 -1 -1 -2 -2 -3 -3 -1 -2 -4  7 -1 -1 -4 -3 -2 -2 -3 -1 -1 -4
+S  1 -1  1  0 -1  0  0  0 -1 -2 -2  0 -1 -2 -1  4  1 -3 -2 -2  0 -2  0 -1 -4
+T  0 -1  0 -1 -1 -1 -1 -2 -2 -1 -1 -1 -1 -2 -1  1  5 -2 -2  0 -1 -1 -1 -1 -4
+W -3 -3 -4 -4 -2 -2 -3 -2 -2 -3 -2 -3 -1  1 -4 -3 -2 11  2 -3 -4 -2 -2 -1 -4
+Y -2 -2 -2 -3 -2 -1 -2 -3  2 -1 -1 -2 -1  3 -3 -2 -2  2  7 -1 -3 -1 -2 -1 -4
+V  0 -3 -3 -3 -1 -2 -2 -3 -3  3  1 -2  1 -1 -2 -2  0 -3 -1  4 -3  2 -2 -1 -4
+B -2 -1  4  4 -3  0  1 -1  0 -3 -4  0 -3 -3 -2  0 -1 -4 -3 -3  4 -3  0 -1 -4
+J -1 -2 -3 -3 -1 -2 -3 -4 -3  3  3 -3  2  0 -3 -2 -1 -2 -1  2 -3  3 -3 -1 -4
+Z -1  0  0  1 -3  4  4 -2  0 -3 -3  1 -1 -3 -1  0 -1 -2 -2 -2  0 -3  4 -1 -4
+X -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -4
+* -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4  1
+</pre>
+<pre class="filecontent-num">
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0001" name="0001">0001</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0002" name="0002">0002</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0003" name="0003">0003</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0004" name="0004">0004</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0005" name="0005">0005</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0006" name="0006">0006</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0007" name="0007">0007</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0008" name="0008">0008</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0009" name="0009">0009</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0010" name="0010">0010</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0011" name="0011">0011</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0012" name="0012">0012</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0013" name="0013">0013</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0014" name="0014">0014</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0015" name="0015">0015</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0016" name="0016">0016</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0017" name="0017">0017</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0018" name="0018">0018</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0019" name="0019">0019</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0020" name="0020">0020</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0021" name="0021">0021</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0022" name="0022">0022</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0023" name="0023">0023</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0024" name="0024">0024</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0025" name="0025">0025</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0026" name="0026">0026</a>
+<a class="fline" href="/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62#0027" name="0027">0027</a>
+</pre>
+</div>
+</main>
+<footer>
+<hr>
+<div align="center">
+     [&nbsp;<span class='modes-sel'>Source navigation</span>&nbsp;]&nbsp;&nbsp;  [&nbsp;<a class='modes' href="/IEB/ToolBox/C_DOC/lxr/diff/data/BLOSUM62">Diff markup</a>&nbsp;]&nbsp;&nbsp;  [&nbsp;<a class='modes' href="/IEB/ToolBox/C_DOC/lxr/ident">Identifier search</a>&nbsp;]&nbsp;&nbsp;  [&nbsp;<a class="modes" href="/IEB/ToolBox/C_DOC/lxr/search">General search</a>&nbsp;]&nbsp;&nbsp; 
+</div>
+<hr>
+<div class="version">
+<span style="float:left">Generated by the LXR 2.3.5.&nbsp;&ndash;&nbsp;<span class=indexstate>Indexed on 2026-07-19 02:54:52 UTC</span>
+</span>
+<a style="float:right" href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a>
+</div>
+</footer>
+<br>
+</body>
+</html>

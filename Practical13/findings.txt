@@ -1,0 +1,7 @@
+The human DLX5 protein: 289 AAs long, found in the nucleus, downloaded from https://rest.uniprot.org/uniprotkb/P56178.fasta
+
+For BLAST:
+I obtained 250 hits.
+The range of the percentage identity is 52.3 ~ 100%.
+The percentage identity with the mouse DLX5 protein is 96.5%.
+Residues in blue mean the aligned ones with human DLX5, while grey ones were different from the human DLX5.
